@@ -16,5 +16,5 @@ function getArenaGameHistory(gamertag) {
 
 module.exports = {
   getPlayerAppearance,
-  getArenaGameHistory,
+  getArenaGameHistory
 };

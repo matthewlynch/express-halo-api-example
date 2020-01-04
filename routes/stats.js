@@ -32,7 +32,13 @@ router.post('/', function(req, res, next) {
       }
     });
 
-    res.render('stats', { title: `Stats for ${gamertag}`, appearance: appearance.data, wins, ties, loses });
+    res.render('stats', {
+      title: `Stats for ${gamertag}`,
+      appearance: appearance.data,
+      wins,
+      ties,
+      loses
+    });
   });
 });
 
