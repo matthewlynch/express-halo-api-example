@@ -7,5 +7,12 @@
   <body>
     <h1><%= title %></h1>
     <p>Welcome to <%= title %></p>
+    <form action="/stats" method="post" novalidate>
+        <label for="gamertag">Gamertag</label>
+        <input id="gamertag" name="gamertag" type="text">
+        <div>
+            <input type="submit" value="Search">
+        </div>
+    </form>
   </body>
 </html>
