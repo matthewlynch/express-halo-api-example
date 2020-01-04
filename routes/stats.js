@@ -39,6 +39,8 @@ router.post('/', function(req, res, next) {
       ties,
       loses
     });
+  }).catch(err => {
+    next(err);
   });
 });
 
